@@ -201,7 +201,7 @@ if ($startstop == 'start' || $startstop == 'stop') {
 <script type='text/javascript'>
   document.getElementById('messageSpan').innerHTML = \"...Please wait...<br><img src=\'../images/loading.gif\'>\";
   setTimeout(function () {
-    window.location.href = 'admin.php?startstop=done';
+    window.location.href = 'admin.php?';
   }, 1000);
 </script>
 ";
